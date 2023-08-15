@@ -44,9 +44,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-#dont run anything past here while we troubleshoot
-streamlit.stop()
-
 #importing snowflake connector
 streamlit.header("The Fruit Load List Contains:")
 #snowflake-related functions
